@@ -1,0 +1,81 @@
+.customer-info-wrapper{
+    margin: 100px;
+}
+.customer-infor-header{
+    text-align: center;
+    font-weight: 500;
+}
+.customer-info-wrapper input{
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(243, 240, 240);
+    /* box-shadow: 2px 2px 2px #ccc; */
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    background-color: rgb(241, 241, 241);
+}
+.customer-info-wrapper input:focus{
+    border: 0px;
+    background-color: rgb(219, 220, 220);
+    box-shadow: none;
+}
+
+.btn.btn-dark.btn-lg.btn-block{
+    margin-top: 2rem;
+    background-color: rgb(105, 105, 105);
+    color: #fff;
+    font-weight: bold;
+}
+.btn.btn-dark.btn-lg.btn-block:hover{
+    background-color: rgb(65, 65, 65);
+    box-shadow: 5px 5px 30px rgb(144, 144, 144);
+}
+.form-order-title{
+    margin: 2rem 0rem 1rem;
+}
+.table thead th{
+    background-color: #b4b4b4;
+    font-weight: 900;
+}
+
+.row .quantity{
+    text-align: center;
+}
+
+.subTotal-title{
+    font-weight: 900;
+}
+.shipping{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 30%;
+}
+.shipping-content{
+    margin-left: 5rem;
+}
+.table.total{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    align-items: flex-end;
+    width: 100%;
+}
+.total-price{
+    align-items: center;
+}
+.total-price-content{
+    font-size: 28px;
+    color: rgb(255, 98, 0);
+}
+.button-order{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.button-order button{
+    width: 15%;
+}
+.error{
+    color: red;
+    font-style: italic;
+}
